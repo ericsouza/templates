@@ -1,0 +1,14 @@
+{
+    "project_name": "my-awesome-project",
+    "project_slug": "{{ cookiecutter.project_name | replace('-', '_') }}",
+    "short_description": "",
+    "version": "0.1.0",
+    "python_version": "3.11",
+    "fastapi_version": "0.100.0",
+    "_jinja2_env_vars": {
+      "block_start_string": "[%",
+      "block_end_string": "%]",
+      "variable_start_string": "[[",
+      "variable_end_string": "]]"
+    }
+  }
